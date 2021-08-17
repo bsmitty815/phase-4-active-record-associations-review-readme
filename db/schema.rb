@@ -59,3 +59,5 @@ ActiveRecord::Schema.define(version: 2021_05_06_151732) do
   add_foreign_key "posts", "authors"
   add_foreign_key "profiles", "authors"
 end
+
+#One-to-one and many-to-one relationships only require a single foreign key, which is stored in the 'subordinate' or 'owned' model
